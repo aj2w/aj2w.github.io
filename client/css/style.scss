@@ -1,0 +1,62 @@
+// Global styles
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,100,100italic);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.thin-font {
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 2em;
+}
+
+
+// Navbar styles
+.navbar {
+    min-height: 65px;
+    border: 1px solid transparent;
+    line-height: 50px;
+}
+
+.navbar-brand {
+    line-height: 30px;
+}
+
+.navbar-nav>li>a {
+    line-height: 30px;
+}
+
+.section-body {
+  margin-top: 20px;
+}
+
+// About
+#passion {
+  font-weight: 400;
+}
+
+// Projects
+#projects {
+  margin-top: 25px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.project-title {
+  font-size: 0.75em;
+  font-weight: 350;
+}
