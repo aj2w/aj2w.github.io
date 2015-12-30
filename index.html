@@ -1,13 +1,103 @@
 <head>
   <title>Anuj Jhunjhunwala</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="assets/js/bootstrap.min.js"></script>
 </head>
 <body>
- {{> navbar}}
- <div class="container">
-  {{> about}}
-  {{> projects}}
-  </div>
-</body>
-
-<!-- google analytics -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand thin-font" href="#">Anuj Jhunjhunwala</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="social-links" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://angel.co/aj2w/" target="_blank"><i class="fa fa-angellist fa-lg"></i></a></li>
+            <li><a href="http://github.com/aj2w" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+            <li><a href="http://linkedin.com/in/jhunjhunwala7/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            <li><a href="https://www.facebook.com/anuj.jhunjhunwala.5" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+            <li><a href="http://twitter.com/aj2w/" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a href="mailto:anuj.jhunjhunwala@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
+          </ul>
+          </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </div>
+      </nav>
+      <div class="container">
+        <section id="about">
+          <span class="section-title thin-font">Hello,</span>
+          <p class="section-body thin-font">
+            My name is Anuj, and I live in New York City. I'm a co-founder and CTO of <a href="http://getvesper.com" target="_blank">Vesper</a>, an <a href="http://techcrunch.com/2015/11/11/angelpad-shows-off-13-new-startups-at-sf-demo-day/" target="_blank">AngelPad #9</a> startup focused on helping businesses better manage their offices using technology. Previously, I was a Project Manager at Tinypass (now called <a href="http://piano.io/" target="_blank">Piano</a>), a TriBeCa-based SaaS platform that helps publishers monetize their digital content.
+            <br/><br/>
+            I graduated from Columbia University in 2011 with a degree in Economics-Political Science. After graduation, and before I entered the tech world, I worked in finance, first as an investment banking analyst at UBS, and then as a high-yield credit investment analyst at a NY-based hedge fund.
+            <br/><br/>
+            <strong id="passion">My passion is to build smart products that solve everyday problems.</strong> I'm on <a href="http://angel.co/aj2w/" target="_blank">AngelList</a>, <a href="http://github.com/aj2w" target="_blank">GitHub</a>, <a href="http://linkedin.com/in/jhunjhunwala7/" target="_blank">LinkedIn</a>,  <a href="https://www.facebook.com/anuj.jhunjhunwala.5" target="_blank">Facebook</a>, <a href="http://twitter.com/aj2w/" target="_blank">Twitter</a>, and you can email me <a href="mailto:anuj.jhunjhunwala@gmail.com" target="_blank">here</a>.
+          </p>
+        </section>
+        <section id="projects" class="thin-font">
+          <span class="section-title thin-font">Work</span>
+          <div class="section-body">
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <a href="http://getvesper.com" target="_blank">
+                  <img class="img-responsive" src="assets/images/vesper.png" alt="Vesper">
+                </a>
+                <h3>
+                <a href="http://getvesper.com" class="project-title" target="_blank">Vesper</a>
+                </h3>
+                <p>Vesper uses technology and people to eliminate the headaches of office management</p>
+              </div>
+              <div class="col-md-4 portfolio-item">
+                <a href="http://pareup.com" target="_blank">
+                  <img class="img-responsive" src="assets/images/pareup.png" alt="PareUp">
+                </a>
+                <h3>
+                <a href="http://pareup.com" class="project-title" target="_blank">PareUp</a>
+                </h3>
+                <p>Good food is a terrible thing to waste</p>
+              </div>
+              <div class="col-md-4 portfolio-item">
+                <a href="http://trackmta.herokuapp.com" target="_blank">
+                  <img class="img-responsive" src="assets/images/track.jpg" alt="Track">
+                </a>
+                <h3>
+                <a href="http://trackmta.herokuapp.com" target="_blank" class="project-title" target="_blank">Track</a>
+                </h3>
+                <p>Users can set up personalized, train-specific service status alerts for the NYC subway system</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 portfolio-item">
+                <a href="http://rubyonrage.herokuapp.com" target="_blank">
+                  <img class="img-responsive" src="assets/images/rubyonrage_updated.jpg" alt="Ruby on Rage">
+                </a>
+                <h3>
+                <a href="http://rubyonrage.herokuapp.com" target="_blank" class="project-title" target="_blank">Ruby on Rage</a>
+                </h3>
+                <p>A multiplayer Tetris-like game in which users can play in real-time with other online players.</p>
+              </div>
+              <div class="col-md-4 portfolio-item">
+                <a href="http://streetsidebites.herokuapp.com" target="_blank">
+                  <img class="img-responsive" src="assets/images/streetside_updated.jpg" alt="Streetside Bites">
+                </a>
+                <h3>
+                <a href="http://streetsidebites.herokuapp.com" target="_blank" class="project-title" target="_blank">Streetside Bites</a>
+                </h3>
+                <p>A street vendor reviewing website that allows users to upload and find vendors in their area.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </body>
+    <!-- google analytics -->

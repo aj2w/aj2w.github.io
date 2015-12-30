@@ -1,4 +1,4 @@
-// Global styles
+/* Global styles */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,100,100italic);
 
 html {
@@ -23,7 +23,7 @@ p {
 }
 
 
-// Navbar styles
+/* Navbar styles */
 .navbar {
     min-height: 65px;
     border: 1px solid transparent;
@@ -42,12 +42,16 @@ p {
   margin-top: 20px;
 }
 
-// About
+#social-links {
+  margin-top: 10px;
+}
+
+/* About styles */
 #passion {
   font-weight: 400;
 }
 
-// Projects
+/* Project styles */
 #projects {
   margin-top: 25px;
 }
